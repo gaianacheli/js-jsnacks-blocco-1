@@ -1,6 +1,6 @@
-const numberOne = prompt('Inserisci un numero');
+const numberOne = parseInt(prompt('Inserisci un numero')) ;
 alert(numberOne)
-const numberTwo = prompt(`Inserisci un'altro numero`);
+const numberTwo = parseInt(prompt(`Inserisci un'altro numero`)); 
 alert(numberTwo)
 const numberWin = document.querySelector('.number')
 
